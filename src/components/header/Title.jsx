@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+//Aqui se manejo el titulo y el texto explicativo del sitio
 const Text = styled.p`
 	Color: darkblue;
   	margin: 20px;

@@ -4,6 +4,7 @@ import 'antd/dist/antd.css';
 import '../../json/conciliaciones.json'
 const { Search } = Input;
 
+//este es el input original del sitio al final se decidio cambiar a otro forma.
 function Inputsearch() {
     return (
         <Space direction="vertical">

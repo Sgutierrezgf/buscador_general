@@ -3,6 +3,7 @@ import { Title, TitleDescription, TitleDescription2 } from './components/header/
 import {Container} from './components/container/Container'
 import List from './components/list/List'
 
+//manejo por componentes de la estructura basica del pagina
 function App() {
   return (
     <Container className="App">
