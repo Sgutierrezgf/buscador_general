@@ -1,4 +1,5 @@
 
+       //Aqui guarde la informacion de cada modulo del Json para mejor manejo de esta
        export const conciliacion = [
           {
             "_id": "5f0bac255aba30b1dfec055e",
@@ -35640,4 +35641,5 @@
             ]
           }
         ]
-  
+  //aqui la guarda en un solo array para manejarla en una sola tabla
+      export const unidos = [ ...conciliacion, ...fuentes, ...tablero, ...usuario]

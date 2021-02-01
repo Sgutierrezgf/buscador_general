@@ -39,6 +39,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+
+### Documentación
+Este reto fue hecho en React-create-app, se separaron los componentes mediandte carpetas para asi tener una mejor estructura de codigo y saber donde esta lo que se necesita en todo momento.
+
+se uso una libreria llamada ant design para react.
+el porque se uso esta libreria es para acortar tiempos, mayor rapides, es facil de usar y facil aprendizaje
+
+tambien los 4 archivos json enviados para el reto fueron guardados en variables y despues unidos en un solo array pero guardando sus campos independiente
+fuera para una mayor facilidad a la hora de trabajar con estos.
+
+Tambien se uso un poco de styled-component a modo de aprovechar y practicar pequeñas pinceladas
+
+
 ### Respuestas
 
 1. ¿Por qué no debería usar la librería JQuery , si estoy usando ReactJS ?
