@@ -90,6 +90,5 @@ Tambien se uso un poco de styled-component a modo de aprovechar y practicar pequ
 
 7. ¿Que nos permite hacer la siguiente declaración?
 const anyFunction = ( param_1 ) => ( param_2 ) => param_1 + param_2
-
-    R/-->
+    R/-->Si entiendo puede hacer que recibe el parametro continua a recibir el segundo y luego suma estos 2
 
