@@ -39,32 +39,44 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Respuestas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. ¿Por qué no debería usar la librería JQuery , si estoy usando ReactJS ?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    R/--> React nos permite una arquitectura de desarrollo mas avanzada, permite la encapsulacion del codigo en componente y ser mas facilmente reutilizable,
+    React solapa por completo las funcionalidades de Jquery.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. ¿Porque usarias Hooks de las nuevas versiones de ReactJS, en lugar de class component ?
 
-### Analyzing the Bundle Size
+    R/-->Porque nos permite crear estados en cualquier parte y a si no estar amarrados a tener que crear siempre una clase y los Hooks son facilmente reutizables.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+3. ¿Que es un archivo JSX ?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    R/-->en resumen es un archivo que tiene templates creados en HTML dentro del propio javascript.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. ¿Que diferencia hay entre una function y una arrow function de Javascript?
 
-### Deployment
+    R/-->la function se define al llamarlas y en las arrow function se definen al declararlas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+5. ¿Qué es Redux y cómo nos ayuda en los proyectos?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    R/-->Es una libreria escrita en JS, nos permite manejar el flujo de nuestra informacion yse basa en 3 principios
+    1. Solamente hay una fuente de la verdad.
+    2. El estado es de solo lectura.
+    3. Solamente podemos utilizar funciones puras.
+
+
+6. ¿Por qué usuarios pruebas unitarias en tu código?
+
+    R/-->lo podrian usar para saber si el codigo funciona segun lo esperado.
+
+
+7. ¿Que nos permite hacer la siguiente declaración?
+const anyFunction = ( param_1 ) => ( param_2 ) => param_1 + param_2
+
+    R/-->
+

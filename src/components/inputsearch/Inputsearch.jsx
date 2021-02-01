@@ -1,12 +1,10 @@
 import React from 'react'
 import { Input, Space } from 'antd';
 import 'antd/dist/antd.css';
-
+import '../../json/conciliaciones.json'
 const { Search } = Input;
 
-const onSearch = value => console.log(value);
-
-function ListsInfo() {
+function Inputsearch() {
     return (
         <Space direction="vertical">
         <Search
@@ -14,11 +12,10 @@ function ListsInfo() {
           allowClear
           enterButton="Search"
           size="large"
-          onSearch={onSearch}
         />
       </Space>
     )
 }
 
-export default ListsInfo
+export default Inputsearch
 
